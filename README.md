@@ -3,6 +3,7 @@
 If you want to compile it yourself: <br />
 
 on debian you need to install: <br />
+`sudo apt install build-essential` <br />
 `sudo apt install libcjson-dev` <br />
 `sudo apt install libgtk-4-dev` <br />
 
