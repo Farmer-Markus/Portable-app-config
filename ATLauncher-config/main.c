@@ -1,5 +1,4 @@
 #include <gtk/gtk.h>
-#include <adwaita.h>
 #include <cjson/cJSON.h>
 
 char conffile[] = "./atlauncher-portable-config.json";
