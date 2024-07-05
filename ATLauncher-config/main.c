@@ -108,7 +108,8 @@ void gui () {
 
 
   builder = gtk_builder_new();
-  gtk_builder_add_from_file(builder, "main.ui", NULL);
+  //gtk_builder_add_from_file(builder, "main.ui", NULL);
+  gtk_builder_add_from_resource(builder, "/ui/main.ui", NULL);
 
   window = gtk_builder_get_object(builder, "window");
   g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
