@@ -10,4 +10,11 @@ on debian you need to install: <br />
 `sudo apt-get install build-essential libcjson-dev libgtk-3-dev` <br />
 
 Compile via:  <br /> 
-``gcc `pkg-config --cflags gtk+-3.0` -o config main.c `pkg-config --libs gtk+-3.0` -lcjson``
+``gcc `pkg-config --cflags gtk+-3.0` -o config main.c `pkg-config --libs gtk+-3.0` -lcjson`` <br />
+
+Or as single executable with ui file included run <br />
+``./build.sh`` <br />
+or <br />
+``mkdir build`` <br />
+``cmake ..`` <br />
+``make`` <br />
